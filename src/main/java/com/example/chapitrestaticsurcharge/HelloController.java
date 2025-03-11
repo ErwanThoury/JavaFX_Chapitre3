@@ -27,19 +27,7 @@ public class HelloController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        p1 = new Personne("Toto", 1999, 1500);
-        p2 = new Personne( 1999, 1500);
-        p3 = new Personne();
 
-        p = p1;
-
-        String nomPersonne = p.getNom();
-        lblNom.setText(nomPersonne);
-
-        String nomPersonneTitre = p.getNom("Professeur");
-        lblNomTitre.setText(nomPersonneTitre);
-
-        lblSalaire.setText(String.valueOf(p.getSalaire()));
     }
 
     @FXML

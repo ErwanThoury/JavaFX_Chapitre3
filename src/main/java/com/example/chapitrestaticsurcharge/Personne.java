@@ -11,22 +11,15 @@ public class Personne {
             this.anneeNais=a;
             this.salaire=s;
         }
-        public Personne(int a, int s) {
-            this.nom="Théo Pardéfaut";
-            this.anneeNais= a;
-            this.salaire= s;
-        }
-        public Personne() {
-            this.nom="Théo Pardéfaut";
-            this.anneeNais= 0123;
-            this.salaire= 456789;
-        }
+
         public String getNom() {
             return this.nom;
         }
         public String getNom(String titre) {
             return this.nom + " " + titre;
         }
+
+
         public int getSalaire()
         {
             return salaire;
